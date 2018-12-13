@@ -51,16 +51,18 @@ Previous Model:
 | Ubuntu - Subtask 1 | 8.1% | 14% | 27.5% | 38.1% | 71% |
 
 
-SMN Model:
+Improved Model:
 
 | Dataset           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
 | :---------------: | :-------------: | :--------------------: |:----------: | :---------: | :---------: |
-| Ubuntu - Subtask 1 | 51.06% | 61.66% | 74.3% | 83% | 98.02% |
+| User's current input | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
+| response of user's past input | 2.7% | 4.8% | 11.4% | 28.2% | 55.4% |
+| User's current input + user's | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
+| User's current input + user's past input + response of user's past input | 10.56% | 15.78% | 27.4% | 39.64% | 85.36% |
 
+Improved Model:
 
-DMN Model:
-
-| Dataset           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
+| Input           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
 | :---------------: | :-------------: | :--------------------: |:----------: | :---------: | :---------: |
 | Ubuntu - Subtask 1 | 56.48% | 71.34% | 89.67% |   |   |
 
