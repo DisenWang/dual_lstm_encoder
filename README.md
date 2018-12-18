@@ -53,7 +53,7 @@ Previous Model:
 
 Improved Model:
 
-| Dataset           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
+| Input           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
 | :---------------: | :-------------: | :--------------------: |:----------: | :---------: | :---------: |
 | User's current input | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
 | responses of user's past inputs | 2.7% | 4.8% | 11.4% | 28.2% | 55.4% |
