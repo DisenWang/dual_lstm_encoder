@@ -72,6 +72,9 @@ Improved Model:
 | :---------------: | :-------------: | :--------------------: |:----------: | :---------: | :---------: |
 | Dual-encoder Model | 8.32% | 13.36% | 24.26% | 35.98% | 80.04% |
 | Memory Network Model | 12.64% | 19.72% | 31.36% | 42.56% | 88.4% |
+
+
+
 | User's current input | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
 | responses of user's past inputs | 2.7% | 4.8% | 11.4% | 28.2% | 55.4% |
 | User's current input + user's past inputs | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
