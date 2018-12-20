@@ -68,12 +68,14 @@ Improved Model:
 
 
 
-| Model           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
+|Model| Input           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
 | :---------------: | :-------------: | :--------------------: |:----------: | :---------: | :---------: |
-| Dual-encoder Model with user's current input only| 5.3% | 10% | 18.5% | 27.9% | 55.8% |
-| Dual-encoder Model | 8.32% | 13.36% | 24.26% | 35.98% | 80.04% |
-| Memory Network Model | 12.64% | 19.72% | 31.36% | 42.56% | 88.4% |
-
+| Dual-encoder Model | User's current input + user's past inputs + responses of user's past inputs|8.32% | 13.36% | 24.26% | 35.98% | 80.04% |
+| Memory Network Model | User's current input + user's past inputs + responses of user's past inputs|12.64% | 19.72% | 31.36% | 42.56% | 88.4% |
+|Improved Model| User's current input | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
+|Improved Model| responses of user's past inputs | 2.7% | 4.8% | 11.4% | 28.2% | 55.4% |
+|Improved Model| User's current input + user's past inputs | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
+|Improved Model| User's current input + user's past inputs + responses of user's past inputs | 10.56% | 15.78% | 27.4% | 39.64% | 85.36% |
 
 
 
