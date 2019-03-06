@@ -53,12 +53,11 @@ Previous Model:
 
 Improved Model:
 
-| Input           | 1 in 100 R@1 | 1 in 100 R@2 | 1 in 100 R@5 | 1 in 100 R@10 | 1 in 100 R@50
+| Input           | 1 in 100 R@1 | 1 in 100 R@5 | 1 in 100 R@10 
 | :---------------: | :-------------: | :--------------------: |:----------: | :---------: | :---------: |
-| User's current input | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
-| responses of user's past inputs | 2.7% | 4.8% | 11.4% | 28.2% | 55.4% |
-| User's current input + user's past inputs | 5.3% | 10% | 18.5% | 27.9% | 55.8% |
-| User's current input + user's past inputs + responses of user's past inputs | 10.56% | 15.78% | 27.4% | 39.64% | 85.36% |
+| Dual encoder model | 5.3% | 18.5% | 27.9% 
+| Sequential Matching Network | 18.3% | 27.8% | 39.4% 
+| Basic Model | 22.3% | 32.1% | 47.5% 
 
 Improved Model:
 
