@@ -53,7 +53,7 @@ Previous Model:
 
 Improved Model:
 
-| Input           | 1 in 100 R@1 | 1 in 100 R@5 | 1 in 100 R@10 
+| Model           | 1 in 100 R@1 | 1 in 100 R@5 | 1 in 100 R@10 
 | :---------------: | :-------------: | :--------------------: |:----------: | 
 | Dual encoder model | 5.3% | 18.5% | 27.9% 
 | Sequential Matching Network | 18.3% | 27.8% | 39.4% 
@@ -61,6 +61,15 @@ Improved Model:
 | Multi-head Model | 22.5% | 35.2% | 51% 
 | Adjusted Multi-head Model | 24.1% | 37.1% | 57.5% 
 | Hybrided Multi-head Model | 25.8% | 37.9% | 55.3% 
+
+
+| Model - test set         | 1 in 100 R@1 | 1 in 100 R@5 | 1 in 100 R@10 
+| :---------------: | :-------------: | :--------------------: |:----------: | 
+| Sequential Matching Network - test_short | 12.3% | 21.5% | 33.9% 
+| Sequential Matching Network - test_long | 19.1% | 29.5% | 41.8% 
+| Adjusted Multi-head Model - test_short | 18.6% | 32.5% | 45.4% 
+| Adjusted Multi-head Model - test_long | 25.5% | 39.2% | 53.2% 
+
 
 Improved Model:
 
