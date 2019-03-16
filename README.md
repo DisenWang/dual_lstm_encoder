@@ -57,8 +57,8 @@ Improved Model:
 | :---------------: | :-------------: | :--------------------: |:----------: | 
 | Dual encoder model | 5.3% | 18.5% | 27.9% 
 | Sequential Matching Network | 18.3% | 27.8% | 39.4% 
-| Single-head Model | 21.6% | 32.1% | 47.5% 
-| Multi-head Model | 22.5% | 35.2% | 51% 
+| Single-head Basic Model | 21.6% | 32.1% | 47.5% 
+| Multi-head Basic Model | 22.5% | 35.2% | 51% 
 | Adjusted Multi-head Model | 24.1% | 37.1% | 57.5% 
 | Hybrided Multi-head Model | 25.8% | 37.9% | 55.3% 
 
